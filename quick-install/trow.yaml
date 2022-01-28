@@ -114,7 +114,7 @@ spec:
 #            scheme: HTTPS
       initContainers:
       - name: trow-init
-        image: containersol/trow:init
+        image: hexmukesh/trow:init
         command: ["/init.sh"]
         imagePullPolicy: Always
         env:
